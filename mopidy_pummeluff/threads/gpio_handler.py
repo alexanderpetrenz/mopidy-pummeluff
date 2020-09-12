@@ -24,11 +24,11 @@ class GPIOHandler(Thread):
     LED when it's started and then reacting to button presses.
     '''
     button_pins = {
-        5: Shutdown,
-        29: PlayPause,
+        37: Shutdown,
+        10: PlayPause,
         31: Stop,
         33: PreviousTrack,
-        35: NextTrack,
+        36: NextTrack,
     }
 
     led_pin = 8
